@@ -1,2 +1,19 @@
-# LinuxOS
-Guia de uso de distintas distros Ubuntu, Fedora, Kali y Arch. 
+# gnu-linux guide
+
+## Some types of bash
+
+- bash shell
+- z shell
+- PoweShell
+- C shell
+- Bourne Shell 
+- Fish Shell
+
+## Comands
+
+***
+ls
+***
+
+
+
