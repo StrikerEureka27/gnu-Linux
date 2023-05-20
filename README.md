@@ -11,9 +11,9 @@
 
 ## Comands
 
-``
-ls : 
-``
+```linux
+ls
+```
 > Listar el contenido de un directorio
 ## Notes
 
