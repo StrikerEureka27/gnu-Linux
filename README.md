@@ -12,8 +12,8 @@
 ## Comands
 
 ``
-ls
+ls : 
 ``
-
-
+> Listar el contenido de un directorio
+## Notes
 
