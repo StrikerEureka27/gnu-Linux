@@ -322,7 +322,10 @@ zip -r [file_name].zip [directory]
 ```
 unzip -r [file_name].zip [directory] 
 ```
-> Unzip a directory 
+> Unzip a .zip file
+
+## Process managment
+
 
 
 ## Absolute paths operators
