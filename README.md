@@ -231,17 +231,17 @@ printenv
 ```
 echo $PATH
 ```
->> This variable contains binary references to our programs
+> This variable contains binary references to our programs
 
 ```
 cd ~ | vi .bashrc
 ```
->> This file contains env variables configuration and alias configurations
+> This file contains env variables configuration and alias configurations
 
 ```
 PATH=$PATH:/path
 ```
->> This is how we can add a new path to the $PATH variable
+> This is how we can add a new path to the $PATH variable
 
 ## Simbolic Links
 
