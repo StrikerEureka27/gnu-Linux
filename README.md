@@ -87,7 +87,7 @@ rm -i
 ```
 > Delete a file but ask for a confirmation
 
-## Exploring  a file
+## Exploring a file
 
 ```
 head [file_name]
@@ -223,9 +223,35 @@ passwd
 
 ## Enviroment variables
 
+```
+printenv
+```
+> See current enviroment variables 
 
+```
+echo $PATH
+```
+>> This variable contains binary references to our programs
+
+```
+cd ~ | vi .bashrc
+```
+>> This file contains env variables configuration and alias configurations
+
+```
+PATH=$PATH:/path
+```
+>> This is how we can add a new path to the $PATH variable
+
+## Simbolic Links
+
+```
+ln -s /path
+```
+> Direct access to a path
 
 ## Absolute paths operators
+
 ```
 cd ~
 cd /
