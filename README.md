@@ -115,6 +115,47 @@ whatis
 ```
 > See more information about a comand
 
+## Wildcards
+
+```
+ls *.txt
+ls [info]*
+```
+> Filter by extension or name
+
+```
+ls [info]? 
+ls [info]??
+```
+> Filter by characters number
+
+```
+ls [[:upper:]]*
+ls -d [[:upper:]]*
+ls -d [[:lower:]]*
+``` 
+> Filter by UpperCase or lowerCase
+
+```
+ls [abc]*
+``` 
+> Filter by Characters 
+
+
+## Redirecting
+
+```
+stdin 1 ? stdout 1 : stderr 2
+ls -lh /courses > courses.txt 
+ls -lh /courses >> courses.txt 
+ls -lh dsdfs 2> error.txt 
+ls -lh addaa > output.txt 2>&1
+```
+
+## Pipe operator
+
+
+
 ## Absolute paths operators
 ```
 cd ~
@@ -139,3 +180,4 @@ To open a directory or file with a GUI using WSL we can use ``wslview``
 - Is a shell utility. 
 - Is a function. 
 - Is a alias. 
+
