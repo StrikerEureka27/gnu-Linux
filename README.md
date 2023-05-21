@@ -87,6 +87,33 @@ rm -i
 ```
 > Delete a file but ask for a confirmation
 
+## Exploring  a file
+
+```
+head [file_name]
+head [file_name] -n 15
+tail [file_name]
+tail [file_name] -n
+less [file_name]
+less [file_name]
+```
+> See the first lines of a text file
+
+```
+type
+```
+> See the type of a comand
+
+```
+alias [comand]
+```
+> Create a alias to run comands
+
+```
+help
+whatis
+```
+> See more information about a comand
 
 ## Absolute paths operators
 ```
@@ -103,3 +130,12 @@ cd ../..
 
 ## Notes
 
+To open a directory or file with a GUI using WSL we can use ``wslview`` 
+
+## Theory
+
+> What is a comand?
+- Is a executable program. 
+- Is a shell utility. 
+- Is a function. 
+- Is a alias. 
