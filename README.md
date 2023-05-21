@@ -154,6 +154,75 @@ ls -lh addaa > output.txt 2>&1
 
 ## Pipe operator
 
+```
+echo "Hello world!"
+```
+
+> Generate a stdout text on terminal 
+
+```
+ls -lh | tail -n 10
+ls -lh | tee output.txt | less
+ls -lh | sort | tee output.txt | cat
+```
+
+## Operator control
+
+```
+ls; mkdir temporal; cal; ls;
+```
+
+> Syncronouse using ;
+
+```
+ls & date
+```
+> Asyncronus
+
+```
+cd jjj && touch test.txt
+cd jjj || touch test.txt && echo "archivo creado"
+```
+> Asyncronus with conditional
+
+## Permissions
+
+```
+[d]rwxr-xr-x
+```
+> File types
+- -: Normal file
+- d: Directory
+- l: simbolic link
+- b: block file
+
+```
+    Owner  Group  World
+[d] [rwx]  [r-x]  [r-x]
+     1 1 1 1 0 1 1 0 1
+```
+> Mode types
+- r: Read
+- w: Write
+- x: Execute 
+
+```
+chmod 777
+```
+> Give permission to a file or directory 
+
+```
+whoami
+```
+> See current user
+
+```
+passwd
+```
+> Change pass from the current user
+
+## Enviroment variables
+
 
 
 ## Absolute paths operators
