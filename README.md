@@ -259,8 +259,20 @@ which [program]
 
 ```
 find ~ -name *.txt
+```
+> Search for a file by ext using wildcards
+
+```
 find ~ -name *.txt | less
-find ~ -type f -name *.log 
+```
+> Search for a file by ext and the explore the stdout
+
+```
+find ~ -type f -name *.log
+```
+> Search for a file by ext and type
+
+```
 find ~ -type f -size 20M -name *.log
 grep Towers movies.csv
 grep -i gun movies.csv
@@ -325,6 +337,34 @@ unzip -r [file_name].zip [directory]
 > Unzip a .zip file
 
 ## Process managment
+
+```
+ps
+```
+> See process running in background over os
+
+```
+top
+htop
+```
+> See process running and the performarce
+
+```
+kill [pidid]
+```
+> Kill a process
+
+## Terminal perzonalization
+
+```
+sudo apt install zsh
+```
+```
+exec [bash]
+chsh -s $(which bash)
+chsh -s $(which zsh)
+```
+> Change current bash and default
 
 
 
