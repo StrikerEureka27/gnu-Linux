@@ -250,6 +250,81 @@ ln -s /path
 ```
 > Direct access to a path
 
+## Searching
+
+```
+which [program]
+```
+> Find binary files from a program
+
+```
+find ~ -name *.txt
+find ~ -name *.txt | less
+find ~ -type f -name *.log 
+find ~ -type f -size 20M -name *.log
+grep Towers movies.csv
+grep -i gun movies.csv
+grep -i -c gun movies.csv
+grep -v tower movies.csv
+```
+
+## Network utilites
+
+```
+ping
+```
+> See if we have conection with a especific resource
+
+```
+ipconfig
+```
+> See information about our network
+
+```
+curl [url]
+```
+> Get a resource from some repository
+
+```
+wget [url]
+```
+> Get and save a file from a online repository
+
+```
+traceroute [url]
+```
+> Get the mapping from the network connection
+
+```
+netstat
+```
+> Get information about the open process that interact with the network
+
+## Compress files with tar and zip
+
+```
+compress verbose file
+tar -cvf [compress_file_name].tar [directory] 
+```
+> Create a .tar of a directory
+
+```
+compress verbose gzip file
+tar -cvzf [file_name].tar.gz [directory] 
+```
+> Create a .tar.gz of a directory this a more recomend form to do it 
+
+```
+zip -r [file_name].zip [directory] 
+```
+> Create a .zip of a directory 
+
+```
+unzip -r [file_name].zip [directory] 
+```
+> Unzip a directory 
+
+
 ## Absolute paths operators
 
 ```
